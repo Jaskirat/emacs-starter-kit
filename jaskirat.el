@@ -1,0 +1,1 @@
+(setq swank-clojure-classpath '("c:/emacs/.emacs.d/jaskirat/swank-clojure-jars/clojure.jar" "c:/emacs/.emacs.d/jaskirat/swank-clojure-jars/cloure-contrib.jar" "c:/emacs/.emacs.d/jaskirat/swank-clojure-jars/swank-clojure.jar"))
