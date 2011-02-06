@@ -1,1 +1,3 @@
 (setq swank-clojure-classpath '("~//.emacs.d/jaskirat/swank-clojure-jars/clojure.jar" "~//.emacs.d/jaskirat/swank-clojure-jars/cloure-contrib.jar" "~//.emacs.d/jaskirat/swank-clojure-jars/swank-clojure.jar"))
+(desktop-save-mode 1)
+
