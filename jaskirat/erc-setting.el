@@ -81,3 +81,11 @@
     (setq erc-autojoin-channels-alist
           '(("freenode.net" "#clojure" "#emacs" "#python")
             ("oftc.net" "#hackers-india")))))
+
+;;Customization variables
+(custom-set-variables
+ '(erc-enable-logging (quote erc-log-all-but-server-buffers))
+ '(erc-modules (quote (autojoin button completion fill irccontrols log match menu netsplit noncommands readonly ring smiley stamp track)))
+)
+
+
