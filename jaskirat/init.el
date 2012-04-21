@@ -5,3 +5,6 @@
 (add-to-list 'auto-mode-alist '("\\.org\\'" . org-mode))
 ;; Turn on font lock for org-mode buffers only
 (add-hook 'org-mode-hook 'turn-on-font-lock)  
+
+(require 'track-closed-files)
+(track-closed-files-mode)
