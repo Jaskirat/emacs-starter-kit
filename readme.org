@@ -28,3 +28,7 @@ borrowed (read: stolen) from [[http:github.com/ghoseb][ghoseb's]] emacs config.
    not available using package.el yet. 
 4. ~/.emacs.d/pkg-configs is scanned and loaded for package
    customizations
+
+* Credits
+
+Thanks Phil, BG & Sam Aaron.
