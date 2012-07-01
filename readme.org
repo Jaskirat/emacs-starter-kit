@@ -1,21 +1,25 @@
 * What is this?
 
-This is my emacs config. There are many like it but this one is mine.
-My emacs config is my best friend. It is my life. I must master it as
-I must master my life. Without me, my emacs config is useless. Without
-my emacs config I am useless. Before God I swear this creed: my
-emacs config and myself are defenders of my computer.
+#+BEGIN_EXAMPLE
+This is my emacs config.
+There are many like it but this one is mine.
+My emacs config is my best friend. 
+It is my life.
+I must master it as I must master my life. 
+Without me, my emacs config is useless. 
+Without my emacs config I am useless. 
+Before God I swear this creed: 
+my emacs config and myself are defenders of my computer.
+#+END_EXAMPLE
 
-* Okay, that was sweet but really, what is this?
+* Okay, that was sweet but really, can you explain more?
 
-This emacs config uses v2 of the emacs-starter-kit. The kit and other
-packages are loaded from marmalade/elpa repositories. The sexiness in
-form of smooth-scrolling, auto-complete and highlighting is borrowed
-(read: stolen) from [[http:github.com/ghoseb][ghoseb's]] emacs config.
+My emacs config uses v2 of the emacs-starter-kit. The emacs starter kit 
+and other packages are loaded from marmalade/elpa repositories. The 
+sexiness in form of smooth-scrolling, auto-complete and highlighting is 
+borrowed (read: stolen) from [[http:github.com/ghoseb][ghoseb's]] emacs config.
 
-* What actually happens inside init.el?
-
-Its rather simple, only four steps. 
+/On the whole its a rather simple process which goes like:/
 1. Packages defined (my-packages) in init.el are loaded from the
    package repositories when not already installed and in that Order
 2. When ESK loads along with my-packages it loads files from USER.el
