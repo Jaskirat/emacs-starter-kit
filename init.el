@@ -31,7 +31,9 @@
                       starter-kit-lisp
                       starter-kit-bindings
                       starter-kit-js
-                      starter-kit-ruby)
+                      starter-kit-ruby
+                      nrepl
+                      ac-nrepl)
   "A list of packages to ensure are installed at launch.")
 
 ;; Go get my packages that aren't already there!

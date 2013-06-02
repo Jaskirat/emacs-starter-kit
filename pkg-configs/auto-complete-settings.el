@@ -4,6 +4,10 @@
 ;;Thanks BG!
 (require 'auto-complete)
 (require 'auto-complete-config)
+
+;;To make auto-complete work nicely with nrepl
+(require 'ac-nrepl)
+
 (ac-config-default)
 (ac-flyspell-workaround)
 
@@ -21,6 +25,10 @@
                ac-source-words-in-same-mode-buffers
                ac-source-words-in-all-buffer))
 
+;;nrepl sepecific hooks
+(add-hook 'nrepl-mode-hook 'ac-nrepl-setup)
+(add-hook 'nrepl-interaction-mode-hook 'ac-nrepl-setup)
+
 (dolist (mode '(magit-log-edit-mode
                 log-edit-mode
                 org-mode
@@ -37,7 +45,8 @@
                 lisp-mode
                 textile-mode
                 markdown-mode
-                slime-repl-mode))
+                slime-repl-mode
+                nrepl-mode))
   (add-to-list 'ac-modes mode))
 
 
