@@ -4,7 +4,8 @@
 ;;And then God said, "let there be Emacs!"
 
 (require 'package)
-(dolist (source '(("marmalade" . "http://marmalade-repo.org/packages/")
+(dolist (source '(("melpa" . "https://melpa.org/packages/")
+ 		  ("marmalade" . "http://marmalade-repo.org/packages/")
                   ("elpa" . "http://tromey.com/elpa/")))
   (add-to-list 'package-archives source t))
 (package-initialize)
@@ -22,7 +23,6 @@
                       swank-clojure
                       slime
                       magit
-                      track-closed-files
                       volatile-highlights
                       ac-slime
                       auto-complete
@@ -32,7 +32,7 @@
                       starter-kit-bindings
                       starter-kit-js
                       starter-kit-ruby
-                      nrepl
+                      cider
                       ac-nrepl)
   "A list of packages to ensure are installed at launch.")
 
